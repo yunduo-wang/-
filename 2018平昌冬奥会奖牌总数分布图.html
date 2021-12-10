@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="9239eb426edb4469ba45f46486f3c5ad" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_9239eb426edb4469ba45f46486f3c5ad = echarts.init(
+            document.getElementById('9239eb426edb4469ba45f46486f3c5ad'), 'light', {renderer: 'canvas'});
+        var option_9239eb426edb4469ba45f46486f3c5ad = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "name": "2018\u5e73\u660c\u51ac\u5965\u4f1a\u5956\u724c\u603b\u6570\u5206\u5e03\u56fe",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Norway",
+                    "value": 39
+                },
+                {
+                    "name": "Germany",
+                    "value": 31
+                },
+                {
+                    "name": "Canada",
+                    "value": 29
+                },
+                {
+                    "name": "United States",
+                    "value": 23
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 20
+                },
+                {
+                    "name": "Sweden",
+                    "value": 14
+                },
+                {
+                    "name": "Korea",
+                    "value": 17
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 15
+                },
+                {
+                    "name": "France",
+                    "value": 15
+                },
+                {
+                    "name": "Austria",
+                    "value": 14
+                },
+                {
+                    "name": "Japan",
+                    "value": 13
+                },
+                {
+                    "name": "Italy",
+                    "value": 10
+                },
+                {
+                    "name": "Russia",
+                    "value": 17
+                },
+                {
+                    "name": "Czech Rep",
+                    "value": 7
+                },
+                {
+                    "name": "Belarus",
+                    "value": 3
+                },
+                {
+                    "name": "China",
+                    "value": 9
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 3
+                },
+                {
+                    "name": "Finland",
+                    "value": 6
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 5
+                },
+                {
+                    "name": "Poland",
+                    "value": 2
+                },
+                {
+                    "name": "Hungary",
+                    "value": 1
+                },
+                {
+                    "name": "Ukraine",
+                    "value": 1
+                },
+                {
+                    "name": "Australia",
+                    "value": 3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 2
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1
+                },
+                {
+                    "name": "Spain",
+                    "value": 2
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 2
+                },
+                {
+                    "name": "Liechtenstein",
+                    "value": 1
+                },
+                {
+                    "name": "Latvia",
+                    "value": 1
+                },
+                {
+                    "name": "Kazakhstan",
+                    "value": 1
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "2018\u5e73\u660c\u51ac\u5965\u4f1a\u5956\u724c\u603b\u6570\u5206\u5e03\u56fe"
+            ],
+            "selected": {
+                "2018\u5e73\u660c\u51ac\u5965\u4f1a\u5956\u724c\u603b\u6570\u5206\u5e03\u56fe": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "2018\u5e73\u660c\u51ac\u5965\u4f1a\u5956\u724c\u603b\u6570\u5206\u5e03\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 50,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_9239eb426edb4469ba45f46486f3c5ad.setOption(option_9239eb426edb4469ba45f46486f3c5ad);
+    </script>
+</body>
+</html>
